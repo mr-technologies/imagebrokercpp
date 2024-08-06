@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "name": "Release",
+            "generator": "Ninja",
+            "configurationType": "RelWithDebInfo",
+            "inheritEnvironments": [ "msvc_x64_x64" ],
+            "cmakeCommandArgs": "",
+            "buildRoot": "${projectDir}\\build"
+        },
+        {
+            "name": "Debug",
+            "generator": "Ninja",
+            "configurationType": "Debug",
+            "inheritEnvironments": [ "msvc_x64_x64" ],
+            "cmakeCommandArgs": "",
+            "buildRoot": "${projectDir}\\buildDbg"
+        }
+    ]
+}
