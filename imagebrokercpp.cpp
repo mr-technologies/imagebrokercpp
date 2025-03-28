@@ -336,6 +336,8 @@ int main()
         }
     }
 
+    cv::destroyWindow(window_name);
+
     chains.clear();
 
     iff::finalize_engine();
