@@ -99,7 +99,7 @@ int main()
         return EXIT_FAILURE;
     }
 
-    iff::initialize_engine(it_iff->dump());
+    iff::initialize(it_iff->dump());
 
     std::vector<std::shared_ptr<iff::chain>> chains;
     for(const auto& chain_config : *it_chains)
@@ -364,7 +364,7 @@ int main()
 
     chains.clear();
 
-    iff::finalize_engine();
+    iff::finalize();
 
     return EXIT_SUCCESS;
 }
