@@ -62,7 +62,7 @@ constexpr bool ENABLE_VSYNC      = true; //prevents tearing, but may increase la
 constexpr bool WINDOW_FULLSCREEN = false;
 constexpr int  MAX_WINDOW_WIDTH  = 1280;
 constexpr int  MAX_WINDOW_HEIGHT = 1024;
-constexpr char CONFIG_FILENAME[] = "imagebroker.json";
+constexpr char CONFIG_FILENAME[] = "imagebrokercpp.json";
 
 int main()
 {
